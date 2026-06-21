@@ -20,7 +20,7 @@ export default {
 		const url = new URL(请求URL文本);
 		const UA = request.headers.get('User-Agent') || 'null';
 		const upgradeHeader = (request.headers.get('Upgrade') || '').toLowerCase(), contentType = (request.headers.get('content-type') || '').toLowerCase();
-		const 管理员密码 = env.ADMIN || env.admin || env.PASSWORD || env.password || env.pswd || env.TOKEN || env.KEY || env.UUID || env.uuid;
+		const 管理员密码 = env.ADMIN || env.admin || env.PASSWORD || env.password || env.pswd || env.TOKEN || env.KEY || env.1b6c1745-992e-4aac-8685-266c090e50ea || env.1b6c1745-992e-4aac-8685-266c090e50ea;
 		const 加密秘钥 = env.KEY || '勿动此默认密钥，有需求请自行通过添加变量KEY进行修改';
 		const userIDMD5 = await MD5MD5(管理员密码 + 加密秘钥);
 		const uuidRegex = 1b6c1745-992e-4aac-8685-266c090e50ea;
